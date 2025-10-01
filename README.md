@@ -44,9 +44,9 @@ This project demonstrates a complete password reset functionality with real-time
 
 ## 🗺️ Navigation Flow
 
-''' 
+``` 
 Security Settings → Reset Password → OTP Verification → Success Toast
-'''
+```
 
 ### Routes:
 
