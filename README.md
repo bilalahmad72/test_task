@@ -8,6 +8,8 @@ A Flutter-based mobile application implementing a secure password reset flow wit
 
 This project demonstrates a complete password reset functionality with real-time password strength validation and OTP-based verification system.
 
+----
+
 ## 🏗️ Project Structure
 
 
@@ -23,6 +25,7 @@ This project demonstrates a complete password reset functionality with real-time
 - ✅ Responsive UI with custom theming
 - ✅ State persistence with Riverpod
 
+----
 
 ## 🎨 Design System
 
@@ -42,6 +45,8 @@ This project demonstrates a complete password reset functionality with real-time
 - Base unit: 4.0
 - Standard spacing: 4, 8, 12, 16, 24, 36
 
+----
+
 ## 🗺️ Navigation Flow
 
 ``` 
@@ -52,3 +57,25 @@ Security Settings → Reset Password → OTP Verification → Success Toast
 
 - /security-settings - Security settings list
 - /reset-password - Password reset screen
+
+----
+
+## 📦 State Management
+
+### Riverpod Providers:
+
+- passwordProvider - Manages password state, strength, and loading status
+- Uses StateNotifier for centralized state updates
+
+---- 
+
+## 📐 Architecture
+
+- Pattern: Feature-first modular architecture
+- Separation: Clear separation between UI, logic, and data
+- Reusability: Shared components in core/ directory
+- Type Safety: Enums for button states and password strength
+
+---- 
+
+Made with ❤️ using Flutter
