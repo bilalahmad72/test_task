@@ -78,4 +78,14 @@ Security Settings → Reset Password → OTP Verification → Success Toast
 
 ---- 
 
+## 👨‍💻 About the Developer
+
+Flutter Developer with 3+ years of experience specializing in mobile app development and frontend technologies (HTML5, CSS3, Tailwind CSS).
+
+**Hire me for your next project:**
+- 💼 [Upwork Profile](https://www.upwork.com/freelancers/~01bb489da512873d44)
+- 📧 Contact me for Flutter development, mobile app projects, and frontend work
+
+---- 
+
 Made with ❤️ using Flutter
