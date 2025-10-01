@@ -1,16 +1,74 @@
-# task_project
+# Task Project - Reset Password Flow
 
-A new Flutter project.
+A Flutter-based mobile application implementing a secure password reset flow with OTP verification.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Overview
 
-A few resources to get you started if this is your first Flutter project:
+This project demonstrates a complete password reset functionality with real-time password strength validation and OTP-based verification system.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🏗️ Project Structure
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+├── app/                          # Application entry point
+│   └── my_app.dart
+├── core/                         # Core utilities & shared components
+│   ├── enums/                    # App-wide enumerations
+│   │   ├── button_state.dart
+│   │   └── password_strength.dart
+│   ├── mixins/                   # Reusable mixins
+│   ├── routing/                  # Navigation configuration
+│   ├── utilities/                # Helper utilities
+│   ├── values/                   # Constants (colors, strings, sizes)
+│   └── widgets/                  # Reusable widgets
+└── features/                     # Feature modules
+    ├── reset_password/
+    │   ├── providers/            # State management
+    │   ├── screens/
+    │   └── widgets/
+    └── settings/
+        ├── screens/
+        └── widgets/
+
+## 🛠️ Tech Stack
+
+
+## ✨ Features
+
+✅ Real-time password strength indicator (4 levels)
+✅ 6-digit OTP verification with auto-focus navigation
+✅ Dynamic button states (active/inactive/loading)
+✅ Custom toast notifications
+✅ Responsive UI with custom theming
+✅ State persistence with Riverpod
+
+
+## 🎨 Design System
+
+### Colors
+
+- Primary: #F95D0B
+- Neutrals: 50-800 shades
+- Success: #F1F7ED / #E3EFDC
+
+### Typography
+
+- Font Family: Albert Sans (Google Fonts)
+- Sizes: 12, 14, 16, 18, 24
+
+### Spacing
+
+- Base unit: 4.0
+- Standard spacing: 4, 8, 12, 16, 24, 36
+
+## 🗺️ Navigation Flow
+
+''' 
+Security Settings → Reset Password → OTP Verification → Success Toast
+'''
+
+### Routes:
+
+- /security-settings - Security settings list
+- /reset-password - Password reset screen
