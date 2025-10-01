@@ -64,8 +64,8 @@ Security Settings → Reset Password → OTP Verification → Success Toast
 
 ### Routes:
 
-- /security-settings - Security settings list
-- /reset-password - Password reset screen
+- `/security-settings` - Security settings list
+- `/reset-password` - Password reset screen
 
 ----
 
@@ -73,8 +73,8 @@ Security Settings → Reset Password → OTP Verification → Success Toast
 
 ### Riverpod Providers:
 
-- passwordProvider - Manages password state, strength, and loading status
-- Uses StateNotifier for centralized state updates
+- **passwordProvider** - Manages password state, strength, and loading status
+- Uses **StateNotifier** for centralized state updates
 
 ## 🔐 Password Strength Logic
 
@@ -90,10 +90,10 @@ Security Settings → Reset Password → OTP Verification → Success Toast
 
 ## 📐 Architecture
 
-- Pattern: Feature-first modular architecture
-- Separation: Clear separation between UI, logic, and data
-- Reusability: Shared components in core/ directory
-- Type Safety: Enums for button states and password strength
+- **Pattern**: Feature-first modular architecture
+- **Separation**: Clear separation between UI, logic, and data
+- **Reusability**: Shared components in core/ directory
+- **Type Safety**: Enums for button states and password strength
 
 ---- 
 
