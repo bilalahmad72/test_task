@@ -76,6 +76,16 @@ Security Settings → Reset Password → OTP Verification → Success Toast
 - passwordProvider - Manages password state, strength, and loading status
 - Uses StateNotifier for centralized state updates
 
+## 🔐 Password Strength Logic
+
+| Length | Strength |
+| ------------- | ------------- |
+| 0 | None (gray) |
+| 1-3 | Weak (red) |
+| 4-6 | Medium (orange) |
+| 7-9 | Good (yellow) |
+| 10+ | Strong (green) |
+
 ---- 
 
 ## 📐 Architecture
