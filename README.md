@@ -70,6 +70,13 @@ lib/
 
 ----
 
+### Advanced UI/UX
+
+- ✨ **Smooth Modal Transitions** - Airbnb-style bottom sheet animations
+- ✨ **Animated Background Scaling** - Parent screen shrinks with margins when modal opens
+
+----
+
 ## 🎨 Design System
 
 ### Colors
@@ -107,8 +114,17 @@ Security Settings → Reset Password → OTP Verification → Success Toast
 
 ### Riverpod Providers:
 
-- **passwordProvider** - Manages password state, strength, and loading status
-- Uses **StateNotifier** for centralized state updates
+#### 1. passwordProvider
+
+    - Manages password input state
+    - Calculates real-time strength validation
+    - Handles loading states during submission
+
+#### 2. navigationProvider 
+
+    - Tracks modal visibility state
+    - Coordinates animations across multiple screens
+    - Enables reactive UI scaling
 
 ## 🔐 Password Strength Logic
 
@@ -134,6 +150,14 @@ Security Settings → Reset Password → OTP Verification → Success Toast
 ## 👨‍💻 About the Developer
 
 Flutter Developer with 3+ years of experience specializing in mobile app development and frontend technologies (HTML5, CSS3, Tailwind CSS).
+
+### Expertise Demonstrated in This Project:
+
+    - ✨ Advanced Flutter animations and transitions
+    - 🎨 Custom UI component development
+    - 🏗️ Scalable architecture patterns
+    - 📱 Responsive and adaptive layouts
+    - ⚡ Performance-optimized state management
 
 **Hire me for your next project:**
 - 💼 [Upwork Profile](https://www.upwork.com/freelancers/~01bb489da512873d44)
