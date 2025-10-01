@@ -128,13 +128,13 @@ Security Settings → Reset Password → OTP Verification → Success Toast
 
 ## 🔐 Password Strength Logic
 
-| Length | Strength |
-| ------------- | ------------- |
-| 0 | None (gray) |
-| 1-3 | Weak (red) |
-| 4-6 | Medium (orange) |
-| 7-9 | Good (yellow) |
-| 10+ | Strong (green) |
+| Length | Strength | Color | Valid? |
+| ------------- | ------------- | ------------- | ------------- |
+| 0 | None | Gray | ❌ |
+| 1-3 | Weak | Red | ❌ |
+| 4-6 | Medium | Orange | ❌ |
+| 7-9 | Good | Yellow | ✅ | 
+| 10+ | Strong | Green | ✅ |
 
 ---- 
 
