@@ -15,6 +15,15 @@ This project demonstrates a complete password reset functionality with real-time
 
 ## 🛠️ Tech Stack
 
+| Category | Technology |
+| ------------- | ------------- |
+| Framework | Flutter 3.9.2 |
+| State Management | Riverpod 3.0.0 |
+| Routing | GoRouter 16.2.4 |
+| UI/UX | Material 3, Google Fonts |
+| Assets | flutter_svg 2.2.1 |
+
+----
 
 ## ✨ Features
 
