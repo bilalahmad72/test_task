@@ -10,40 +10,18 @@ This project demonstrates a complete password reset functionality with real-time
 
 ## 🏗️ Project Structure
 
-'''
-lib/
-├── app/                          # Application entry point
-│   └── my_app.dart
-├── core/                         # Core utilities & shared components
-│   ├── enums/                    # App-wide enumerations
-│   │   ├── button_state.dart
-│   │   └── password_strength.dart
-│   ├── mixins/                   # Reusable mixins
-│   ├── routing/                  # Navigation configuration
-│   ├── utilities/                # Helper utilities
-│   ├── values/                   # Constants (colors, strings, sizes)
-│   └── widgets/                  # Reusable widgets
-└── features/                     # Feature modules
-    ├── reset_password/
-    │   ├── providers/            # State management
-    │   ├── screens/
-    │   └── widgets/
-    └── settings/
-        ├── screens/
-        └── widgets/
-'''
 
 ## 🛠️ Tech Stack
 
 
 ## ✨ Features
 
-✅ Real-time password strength indicator (4 levels)
-✅ 6-digit OTP verification with auto-focus navigation
-✅ Dynamic button states (active/inactive/loading)
-✅ Custom toast notifications
-✅ Responsive UI with custom theming
-✅ State persistence with Riverpod
+- ✅ Real-time password strength indicator (4 levels)
+- ✅ 6-digit OTP verification with auto-focus navigation
+- ✅ Dynamic button states (active/inactive/loading)
+- ✅ Custom toast notifications
+- ✅ Responsive UI with custom theming
+- ✅ State persistence with Riverpod
 
 
 ## 🎨 Design System
