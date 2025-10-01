@@ -10,6 +10,7 @@ This project demonstrates a complete password reset functionality with real-time
 
 ## 🏗️ Project Structure
 
+'''
 lib/
 ├── app/                          # Application entry point
 │   └── my_app.dart
@@ -30,6 +31,7 @@ lib/
     └── settings/
         ├── screens/
         └── widgets/
+'''
 
 ## 🛠️ Tech Stack
 
